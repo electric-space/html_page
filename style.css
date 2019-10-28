@@ -1,5 +1,33 @@
+html{
+    font-size:10px;
+}
+
+
+body{
+    font-size:1.4rem;
+    line-height: 2em;
+}
+
+
 header{
-	background-color:#eee;
+	height:100px;
+}
+
+.main-navigation{
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+
+.main-navigation li{
+    display:inline-block;
+    margin-left:24px;
+}
+
+.main-navigation li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(55, 30, 30);
 }
 
 
@@ -8,12 +36,27 @@ header{
 }
 
 
-.page-bg{
-	background-color: #e6edc1;
+section{
+    padding:48px 0;
+}
+
+.products{
+	background-color: rgba(213, 245, 152, 1);
+}
+
+.main-copy{
+    background-color:#95f4ec;
+    height:50vh;
 }
 
 
+
+
+
+
+
+
 footer{
-	background-color:#333;
+	background-color:#374150;
 	color:#fff;
 }
